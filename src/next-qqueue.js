@@ -17,7 +17,7 @@
     };
   };
 
-  var Qqueue = nx.declare('nx.Qqueue', {
+  var Qqueue = nx.declare('nxQqueue', {
     statics:{
       queue:function(inArray,inPromiseCallback){
         var promiseStack = [];
